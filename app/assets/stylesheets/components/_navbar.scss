@@ -1,12 +1,19 @@
-.navbar-lewagon {
+.navbar-instagram {
   justify-content: space-between;
   background: white;
+  padding: 0.2rem 10rem;
+  border-bottom: 1px solid #dbdbdb;
+  .navbar-nav {
+    .nav-link-icons {
+      width: 20px;
+    }
+  }
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-instagram .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-instagram .navbar-brand img {
+  width: 100px;
 }
